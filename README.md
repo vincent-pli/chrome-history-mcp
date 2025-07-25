@@ -20,7 +20,7 @@
    ```bash
    uv run chrome-history-mcp --path /Users/lipeng/Library/Application\ Support/Google/Chrome/Profile\ 3/History
    ```
-   
+
 ## E2E
 
 Leverage [mcp-cli-host](https://github.com/vincent-pli/mcp-cli-host) as mcp client
@@ -33,11 +33,11 @@ Leverage [mcp-cli-host](https://github.com/vincent-pli/mcp-cli-host) as mcp clie
       "command": "uv",
       "args": [
         "--project",
-        "/Users/lipeng/workspaces/github.com/vincent-pli/chrome-history-mcp",
+        "<location of the repo>",
         "run",
         "chrome-history-mcp",
         "--path",
-        "/Users/lipeng/Library/Application Support/Google/Chrome/Profile 3/History"
+        "<location of your chrome history>"
       ]
     }
   }
