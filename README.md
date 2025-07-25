@@ -19,7 +19,8 @@
 
    ```bash
    uv run chrome-history-mcp --path /Users/lipeng/Library/Application\ Support/Google/Chrome/Profile\ 3/History
-
+   ```
+   
 ## E2E
 
 Leverage [mcp-cli-host](https://github.com/vincent-pli/mcp-cli-host) as mcp client
